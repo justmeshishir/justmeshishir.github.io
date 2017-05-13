@@ -33,9 +33,9 @@ a:hover {
 
 .main-nav__list {
     list-style: none;
+    text-align: center;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 .main-nav__list-item {
@@ -93,7 +93,7 @@ a:hover {
 
 .section--main {
     height: 90vh;
-    background: #78909C url(../img/craft-your-ideas.png) no-repeat center bottom;
+    background: #FFFFFF url(../img/ccr.jpg) no-repeat center bottom;
 }
 
 .section--about {
@@ -334,6 +334,9 @@ a:hover {
     display: inline-block;
 }
 
+.topmargin-400 {
+    margin-top: 400px;
+}
 @media only screen and (min-width: 760px) {
     .wrapper {
         padding: 0;
@@ -351,7 +354,7 @@ a:hover {
     }
 
     .main-nav__list {
-        text-align: right;
+        text-align: center;
         padding: 10px 0;
     }
 
