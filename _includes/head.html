@@ -1,0 +1,30 @@
+<head>
+	<meta charset="UTF-8">
+	<title>{{ page.title }} </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#CFD8DC">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/app.css?version=2.0.1">
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+	
+	<script>
+		window.scrollReveal = new ScrollReveal({
+		    duration: 400,
+		});
+
+		if(window.scrollReveal.isSupported()) {
+		    document.documentElement.classList.add('scroll-reveal');
+		}
+	</script>
+
+	<style>
+        .scroll-reveal .reveal {
+            visibility: hidden;
+        }
+	</style>
+</head>

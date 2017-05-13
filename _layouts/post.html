@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="wrap">
+
+    {% include navigation.html %}
+      <div class="text-center post-content">
+        <div class="post-info">
+          <h1 class="text-center">{{ page.title }}</h1>
+          <h5 class="post-time text-center">{{ page.date | date: "%B %-d, %Y" }}</h5>
+        </div>
+        {{ content }}
+        <hr />
+        Share this on &rarr;<br />
+        {% include social.html %}
+      </div>
+    </div>
+
+    {% include page-footer.html %}
+  </body>
+</html>

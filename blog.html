@@ -1,0 +1,22 @@
+---
+layout: default
+description: This is the blog post written by members of FourMB.
+---
+<div class="home ">
+
+  <h1 class="page-heading text-center">Blog Posts</h1>
+
+  <div class="post-list">
+    {% for post in site.posts %}
+        <div class="post-info">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <div class="post-title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </div>
+
+          <p class="post-preview">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </div>
+    {% endfor %}
+  </div>
+</div>
