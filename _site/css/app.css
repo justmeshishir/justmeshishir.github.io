@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans';
+    font-family: 'Indie Flower', cursive;
     padding: 0;
 }
 
@@ -36,6 +36,7 @@ a:hover {
     text-align: center;
     padding: 0;
     margin: 0;
+    background-color: #E3FAFA;
 }
 
 .main-nav__list-item {
@@ -93,19 +94,22 @@ a:hover {
 
 .section--main {
     height: 90vh;
+    font-family: 'Lobster', cursive;
     background: #FFFFFF url(../img/ccr.jpg) no-repeat center bottom;
 }
 
 .section--about {
-    background: #ECEFF1;
+    background: #B7FFFF;
 }
 
-.section--services {
-    background: #CFD8DC;
+.section--projects a:hover {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #23DFDF;
 }
-
 .section--contact {
-    background: #B0BEC5;
+    background: #72F3F3;
 }
 
 .section--contact__email a{
@@ -121,7 +125,7 @@ a:hover {
 }
 
 .section--contact__email a:hover {
-    color: #b42b2b;
+    color: #ffffff;
 }
 
 .skill-list {
@@ -194,7 +198,7 @@ a:hover {
 
 .footer{
     padding: 75px 25px;
-    background: #78909C;
+    background: #23DFDF;
 }
 
 .footer h2{
