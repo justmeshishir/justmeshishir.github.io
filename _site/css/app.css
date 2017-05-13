@@ -94,6 +94,7 @@ a:hover {
 
 .section--main {
     height: 90vh;
+    margin-bottom: 20px;
     font-family: 'Lobster', cursive;
     background: #FFFFFF url(../img/pp.jpg) no-repeat center bottom;
 }
